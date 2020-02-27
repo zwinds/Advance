@@ -228,3 +228,11 @@ Git 使用两种主要类型的标签：轻量标签（lightweight）与附注�
 
 ### Git 别名
 可为一些操作器别名，例如： `git config --global alias.last 'log -1 HEAD'`后， 使用`git last` 就可以看到最后一次提交
+
+### VsCode免密码上传Github
+
+项目.git中的配置文件 config
+remote “origin”
+里面的url本来为https://github.com/****/****.git
+
+替换为https://github用户名：github密码@github.com/****/****.git这样每次推送到github仓库就不需要输入账户和密码了
